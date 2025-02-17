@@ -1,0 +1,20 @@
+fundus~=0.4.6
+tqdm~=4.66.6
+networkx~=3.2.1
+numpy~=1.26.4
+scipy~=1.11.0
+scikit-learn~=1.5.2
+pandas~=2.2.3
+-e git+https://github.com/flairNLP/flair.git#egg=flair
+sentencepiece~=0.2.0
+gensim~=3.8.2
+torch~=2.5.1
+gudhi~=3.10.1
+json5~=0.9.25
+matplotlib~=3.9.2
+numba~=0.60.0
+seaborn~=0.13.2
+setuptools~=75.3.0
+nbformat~=5.10.4
+cupy-cuda12x==13.3.0
+flair[word-embeddings]

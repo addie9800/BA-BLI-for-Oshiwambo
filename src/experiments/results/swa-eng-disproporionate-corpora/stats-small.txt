@@ -1,0 +1,3 @@
+100-10000-True-average score: 21.76982, std-dev: 0.6852769655807458
+100-20000-True-average score: 21.14006, std-dev: 0.9938741494217911
+100-50000-True-average score: 18.18674, std-dev: 2.442520968271192

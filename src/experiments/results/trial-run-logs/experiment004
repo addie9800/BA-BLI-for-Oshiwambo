@@ -1,0 +1,4671 @@
+Getting words...
+Creating Graphs...
+Getting seeds...
+  0%|          | 0/3000 [00:00<?, ?it/s]100%|██████████| 3000/3000 [00:00<00:00, 77983.75it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]Starting Iteration 0
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 197
+	# of seeds chosen for round 1: 197
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:24:57
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       [  79,   42],
+       [ 485,   44],
+       [ 723,  803],
+       [   8,  183],
+       [2368,   97],
+       [ 581, 1091],
+       [ 839, 2335],
+       [ 610, 1106],
+       [1049, 1705],
+       [1589, 2894],
+       [2625,  759],
+       [2389,  147],
+       [2974, 1520],
+       [ 466,  878],
+       [2287, 2741],
+       [ 141,  120],
+       [ 582,  479],
+       [ 260,   80],
+       [ 207,  129],
+       [1109,   99],
+       [1672, 2336],
+       [2029, 2839],
+       [  58, 1327],
+       [2114, 1259],
+       [2286, 2708],
+       [2204, 2492],
+       [2475,  463],
+       [2840, 1507],
+       [2076, 1678],
+       [1697, 2740],
+       [2121, 2778],
+       [ 345, 1820],
+       [2880,  713],
+       [  15,   53],
+       [ 436,  171],
+       [1165,  973],
+       [ 310, 1032],
+       [ 875,  810],
+       [ 196,   92],
+       [ 650,  902],
+       [  43,  169],
+       [2714, 2953],
+       [ 407,  238],
+       [1309, 1523],
+       [ 602,  526],
+       [2392,  159],
+       [2260, 2172],
+       [1698,  654],
+       [2510,  142],
+       [2468,  572],
+       [ 224, 2444],
+       [2133, 2989],
+       [1860, 1045],
+       [ 427,  145],
+       [1863, 2402],
+       [ 819, 1881],
+       [ 510,  683],
+       [ 160,   82],
+       [1189, 1017],
+       [2320, 2280],
+       [ 643, 1813],
+       [ 229,  337],
+       [ 175,  366],
+       [ 377, 1257],
+       [ 512,  655],
+       [2741, 1708],
+       [ 335,  494],
+       [ 648,  149],
+       [1914,  383],
+       [1469, 2995],
+       [ 150,   67],
+       [1960, 1173],
+       [ 131,   90],
+       [1963,  720],
+       [ 707, 1433],
+       [ 346,   79],
+       [1259, 2209],
+       [  81, 1117],
+       [2537, 1276],
+       [1855, 2804],
+       [ 914,  954],
+       [2047, 1241],
+       [ 670, 2671],
+       [1679, 1120],
+       [ 547,  761],
+       [ 601, 1754],
+       [ 419,  767],
+       [1274, 2758],
+       [ 331, 1136],
+       [  28,  125],
+       [ 578, 1434],
+       [  71, 1118],
+       [1071, 1141],
+       [ 570, 1146],
+       [1992,  862],
+       [ 184,  284],
+       [ 580, 1123],
+       [ 804,   86],
+       [ 901,  702],
+       [ 158,  155],
+       [2557, 2504],
+       [ 441,   43],
+       [1273, 2798],
+       [ 171,   30],
+       [1401, 1534],
+       [ 352,  505],
+       [  92, 1195],
+       [ 453,  319],
+       [2261, 2316],
+       [2087, 2484],
+       [2291,  822],
+       [ 690,  457],
+       [ 237,   57],
+       [ 151,   51],
+       [ 272,  143],
+       [ 139,  150],
+       [1510,  385],
+       [ 230,   27],
+       [2672,  370],
+       [ 299,   62],
+       [ 209,  434],
+       [2338,  500],
+       [1337, 1289],
+       [ 135,  292],
+       [ 243,  481],
+       [ 849, 1999],
+       [2193, 2623],
+       [ 963, 2357],
+       [ 457,  956],
+       [ 101,  525],
+       [2444, 1237],
+       [  93,   14],
+       [ 451,  717],
+       [ 568, 1519],
+       [1700, 2235],
+       [ 639,   75],
+       [2685,  781],
+       [ 522,  194],
+       [1728,  109],
+       [2053,  122],
+       [1576, 2476],
+       [ 460,  948],
+       [ 502, 1710],
+       [ 392,   93],
+       [ 341,  228],
+       [2560, 2055],
+       [2721,  239],
+       [ 775, 1899],
+       [1543, 1124],
+       [1720, 2862],
+       [  36,   37],
+       [ 368,  550],
+       [ 280,  437],
+       [  13,   29],
+       [1431, 2368],
+       [ 641, 2966],
+       [2311, 1798],
+       [1391, 1859],
+       [ 188,  793],
+       [2779,  612],
+       [2459,  769],
+       [ 350,  953],
+       [2127, 2672],
+       [ 493, 1566],
+       [2317,  392],
+       [  65,  130],
+       [2159, 1041],
+       [2740, 2881],
+       [ 864, 1921],
+       [1730, 1919],
+       [   6,    7],
+       [1408, 2121],
+       [2481, 2187],
+       [ 232,  115],
+       [  18,   70],
+       [ 292,   47],
+       [2717,  975],
+       [1659, 1285],
+       [2696, 2566],
+       [ 405, 1309],
+       [ 488, 1261],
+       [2839, 1956],
+       [1774, 2764],
+       [2153, 1491],
+       [ 127,  132],
+       [ 342,  206],
+       [ 313,  353],
+       [ 476, 2345],
+       [2775, 1791],
+       [  96,  266],
+       [ 712, 1972],
+       [ 304,  478],
+       [2970,  181],
+       [ 379,  307]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:29:13
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 2.2727%  Recall 2.2727%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:29:13
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       [  42,   79],
+       [  44,  485],
+       [ 803,  723],
+       [ 183,    8],
+       [  97, 2368],
+       [1091,  581],
+       [2335,  839],
+       [1106,  610],
+       [1705, 1049],
+       [2894, 1589],
+       [ 759, 2625],
+       [ 147, 2389],
+       [1520, 2974],
+       [ 878,  466],
+       [2741, 2287],
+       [ 120,  141],
+       [ 479,  582],
+       [  80,  260],
+       [ 129,  207],
+       [  99, 1109],
+       [2336, 1672],
+       [2839, 2029],
+       [1327,   58],
+       [1259, 2114],
+       [2708, 2286],
+       [2492, 2204],
+       [ 463, 2475],
+       [1507, 2840],
+       [1678, 2076],
+       [2740, 1697],
+       [2778, 2121],
+       [1820,  345],
+       [ 713, 2880],
+       [  53,   15],
+       [ 171,  436],
+       [ 973, 1165],
+       [1032,  310],
+       [ 810,  875],
+       [  92,  196],
+       [ 902,  650],
+       [ 169,   43],
+       [2953, 2714],
+       [ 238,  407],
+       [1523, 1309],
+       [ 526,  602],
+       [ 159, 2392],
+       [2172, 2260],
+       [ 654, 1698],
+       [ 142, 2510],
+       [ 572, 2468],
+       [2444,  224],
+       [2989, 2133],
+       [1045, 1860],
+       [ 145,  427],
+       [2402, 1863],
+       [1881,  819],
+       [ 683,  510],
+       [  82,  160],
+       [1017, 1189],
+       [2280, 2320],
+       [1813,  643],
+       [ 337,  229],
+       [ 366,  175],
+       [1257,  377],
+       [ 655,  512],
+       [1708, 2741],
+       [ 494,  335],
+       [ 149,  648],
+       [ 383, 1914],
+       [2995, 1469],
+       [  67,  150],
+       [1173, 1960],
+       [  90,  131],
+       [ 720, 1963],
+       [1433,  707],
+       [  79,  346],
+       [2209, 1259],
+       [1117,   81],
+       [1276, 2537],
+       [2804, 1855],
+       [ 954,  914],
+       [1241, 2047],
+       [2671,  670],
+       [1120, 1679],
+       [ 761,  547],
+       [1754,  601],
+       [ 767,  419],
+       [2758, 1274],
+       [1136,  331],
+       [ 125,   28],
+       [1434,  578],
+       [1118,   71],
+       [1141, 1071],
+       [1146,  570],
+       [ 862, 1992],
+       [ 284,  184],
+       [1123,  580],
+       [  86,  804],
+       [ 702,  901],
+       [ 155,  158],
+       [2504, 2557],
+       [  43,  441],
+       [2798, 1273],
+       [  30,  171],
+       [1534, 1401],
+       [ 505,  352],
+       [1195,   92],
+       [ 319,  453],
+       [2316, 2261],
+       [2484, 2087],
+       [ 822, 2291],
+       [ 457,  690],
+       [  57,  237],
+       [  51,  151],
+       [ 143,  272],
+       [ 150,  139],
+       [ 385, 1510],
+       [  27,  230],
+       [ 370, 2672],
+       [  62,  299],
+       [ 434,  209],
+       [ 500, 2338],
+       [1289, 1337],
+       [ 292,  135],
+       [ 481,  243],
+       [1999,  849],
+       [2623, 2193],
+       [2357,  963],
+       [ 956,  457],
+       [ 525,  101],
+       [1237, 2444],
+       [  14,   93],
+       [ 717,  451],
+       [1519,  568],
+       [2235, 1700],
+       [  75,  639],
+       [ 781, 2685],
+       [ 194,  522],
+       [ 109, 1728],
+       [ 122, 2053],
+       [2476, 1576],
+       [ 948,  460],
+       [1710,  502],
+       [  93,  392],
+       [ 228,  341],
+       [2055, 2560],
+       [ 239, 2721],
+       [1899,  775],
+       [1124, 1543],
+       [2862, 1720],
+       [  37,   36],
+       [ 550,  368],
+       [ 437,  280],
+       [  29,   13],
+       [2368, 1431],
+       [2966,  641],
+       [1798, 2311],
+       [1859, 1391],
+       [ 793,  188],
+       [ 612, 2779],
+       [ 769, 2459],
+       [ 953,  350],
+       [2672, 2127],
+       [1566,  493],
+       [ 392, 2317],
+       [ 130,   65],
+       [1041, 2159],
+       [2881, 2740],
+       [1921,  864],
+       [1919, 1730],
+       [   7,    6],
+       [2121, 1408],
+       [2187, 2481],
+       [ 115,  232],
+       [  70,   18],
+       [  47,  292],
+       [ 975, 2717],
+       [1285, 1659],
+       [2566, 2696],
+       [1309,  405],
+       [1261,  488],
+       [1956, 2839],
+       [2764, 1774],
+       [1491, 2153],
+       [ 132,  127],
+       [ 206,  342],
+       [ 353,  313],
+       [2345,  476],
+       [1791, 2775],
+       [ 266,   96],
+       [1972,  712],
+       [ 478,  304],
+       [ 181, 2970],
+       [ 307,  379]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:33:39
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (662, 430), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 33.3333%) (Recall: 2.2727%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2708
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2708
+	# of seeds chosen for round 1: 2708
+	Num combined input seeds: 2708
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2440
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2467
+	# of seeds chosen for round 2: 2467
+	Num combined input seeds: 2467
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2430
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2456
+	# of seeds chosen for round 3: 2456
+	Num combined input seeds: 2456
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2428
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2452
+	# of seeds chosen for round 4: 2452
+	Num combined input seeds: 2452
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2427
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2449
+	# of seeds chosen for round 5: 2449
+	Num combined input seeds: 2449
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+  5%|▌         | 1/20 [08:58<2:50:24, 538.13s/it]Starting Iteration 1
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2445
+	# of seeds chosen for round 1: 2445
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:33:55
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 767, 1037],
+       [ 998,  606],
+       [ 122,  215]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:34:06
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 2.2727%  Recall 2.2727%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:34:06
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1037,  767],
+       [ 606,  998],
+       [ 215,  122]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:34:12
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2967
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2967
+	# of seeds chosen for round 1: 2967
+	Num combined input seeds: 2967
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2620
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2647
+	# of seeds chosen for round 2: 2647
+	Num combined input seeds: 2647
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2584
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2611
+	# of seeds chosen for round 3: 2611
+	Num combined input seeds: 2611
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2580
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2605
+	# of seeds chosen for round 4: 2605
+	Num combined input seeds: 2605
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2581
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2606
+	# of seeds chosen for round 5: 2606
+	Num combined input seeds: 2606
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+ 10%|█         | 2/20 [09:28<1:11:53, 239.63s/it]Starting Iteration 2
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2607
+	# of seeds chosen for round 1: 2607
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:34:26
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 898, 2250],
+       [1756,  748],
+       [2403, 2500]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:34:28
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 2.2727%  Recall 2.2727%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:34:28
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [2250,  898],
+       [ 748, 1756],
+       [2500, 2403]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:34:36
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1426, 2393), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 33.3333%) (Recall: 2.2727%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2998
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2998
+	# of seeds chosen for round 1: 2998
+	Num combined input seeds: 2998
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2634
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2666
+	# of seeds chosen for round 2: 2666
+	Num combined input seeds: 2666
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2608
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2636
+	# of seeds chosen for round 3: 2636
+	Num combined input seeds: 2636
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2606
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2632
+	# of seeds chosen for round 4: 2632
+	Num combined input seeds: 2632
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2601
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2629
+	# of seeds chosen for round 5: 2629
+	Num combined input seeds: 2629
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 2.2727%) (Recall: 2.2727%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (2092, 2742)}
+	Length of hypotheses: 8
+	Length of test set: 132
+	Pairs matched: 3 
+	(Precision; 37.5%) (Recall: 2.2727%)
+ 15%|█▌        | 3/20 [09:54<40:13, 141.95s/it]  Starting Iteration 3
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2626
+	# of seeds chosen for round 1: 2626
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:34:51
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [2394, 2565],
+       [2186,  422],
+       [2348,  532]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:34:59
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:34:59
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [2565, 2394],
+       [ 422, 2186],
+       [ 532, 2348]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:35:02
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2988
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2988
+	# of seeds chosen for round 1: 2988
+	Num combined input seeds: 2988
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2654
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2685
+	# of seeds chosen for round 2: 2685
+	Num combined input seeds: 2685
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2631
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2658
+	# of seeds chosen for round 3: 2658
+	Num combined input seeds: 2658
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2624
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2654
+	# of seeds chosen for round 4: 2654
+	Num combined input seeds: 2654
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2621
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2652
+	# of seeds chosen for round 5: 2652
+	Num combined input seeds: 2652
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 20%|██        | 4/20 [10:20<25:38, 96.17s/it] Starting Iteration 4
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2651
+	# of seeds chosen for round 1: 2651
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:35:17
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 654,  619],
+       [2134, 1226],
+       [2183, 1417]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:35:27
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:35:27
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 619,  654],
+       [1226, 2134],
+       [1417, 2183]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:35:39
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2981
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2981
+	# of seeds chosen for round 1: 2981
+	Num combined input seeds: 2981
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2653
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2691
+	# of seeds chosen for round 2: 2691
+	Num combined input seeds: 2691
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2637
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2670
+	# of seeds chosen for round 3: 2670
+	Num combined input seeds: 2670
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2630
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2664
+	# of seeds chosen for round 4: 2664
+	Num combined input seeds: 2664
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2631
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2663
+	# of seeds chosen for round 5: 2663
+	Num combined input seeds: 2663
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 25%|██▌       | 5/20 [10:56<18:34, 74.33s/it]Starting Iteration 5
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2662
+	# of seeds chosen for round 1: 2662
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:35:53
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1897, 1773],
+       [1021, 2747],
+       [ 780, 2959]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:35:54
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:35:55
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1773, 1897],
+       [2747, 1021],
+       [2959,  780]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:35:59
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2989
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2989
+	# of seeds chosen for round 1: 2989
+	Num combined input seeds: 2989
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2669
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2704
+	# of seeds chosen for round 2: 2704
+	Num combined input seeds: 2704
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2647
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2681
+	# of seeds chosen for round 3: 2681
+	Num combined input seeds: 2681
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2643
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2677
+	# of seeds chosen for round 4: 2677
+	Num combined input seeds: 2677
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2641
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2673
+	# of seeds chosen for round 5: 2673
+	Num combined input seeds: 2673
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 30%|███       | 6/20 [11:17<13:09, 56.36s/it]Starting Iteration 6
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2670
+	# of seeds chosen for round 1: 2670
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:36:15
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [  12,  234],
+       [1193, 2903],
+       [2757, 1325]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:36:20
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:36:20
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 234,   12],
+       [2903, 1193],
+       [1325, 2757]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:36:32
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2985
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2985
+	# of seeds chosen for round 1: 2985
+	Num combined input seeds: 2985
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2677
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2711
+	# of seeds chosen for round 2: 2711
+	Num combined input seeds: 2711
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2654
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 3: 2683
+	Num combined input seeds: 2683
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2647
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2676
+	# of seeds chosen for round 4: 2676
+	Num combined input seeds: 2676
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2647
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2676
+	# of seeds chosen for round 5: 2676
+	Num combined input seeds: 2676
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 35%|███▌      | 7/20 [11:51<10:36, 48.98s/it]Starting Iteration 7
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2676
+	# of seeds chosen for round 1: 2676
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:36:48
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 539,  919],
+       [ 858, 2622],
+       [1573, 2466]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:36:51
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:36:52
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 919,  539],
+       [2622,  858],
+       [2466, 1573]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:36:59
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2985
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2985
+	# of seeds chosen for round 1: 2985
+	Num combined input seeds: 2985
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2670
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2706
+	# of seeds chosen for round 2: 2706
+	Num combined input seeds: 2706
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2648
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2684
+	# of seeds chosen for round 3: 2684
+	Num combined input seeds: 2684
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2648
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2682
+	# of seeds chosen for round 4: 2682
+	Num combined input seeds: 2682
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2648
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2681
+	# of seeds chosen for round 5: 2681
+	Num combined input seeds: 2681
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 40%|████      | 8/20 [12:16<08:17, 41.47s/it]Starting Iteration 8
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2681
+	# of seeds chosen for round 1: 2681
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:37:14
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [   4,   12],
+       [1213, 2181],
+       [  54,    2]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:37:17
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:37:17
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [  12,    4],
+       [2181, 1213],
+       [   2,   54]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:37:20
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (717, 2028), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 10
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 40.0%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2989
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2989
+	# of seeds chosen for round 1: 2989
+	Num combined input seeds: 2989
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2672
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2709
+	# of seeds chosen for round 2: 2709
+	Num combined input seeds: 2709
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2644
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2680
+	# of seeds chosen for round 3: 2680
+	Num combined input seeds: 2680
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2637
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2672
+	# of seeds chosen for round 4: 2672
+	Num combined input seeds: 2672
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2637
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2670
+	# of seeds chosen for round 5: 2670
+	Num combined input seeds: 2670
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 45%|████▌     | 9/20 [12:38<06:29, 35.41s/it]Starting Iteration 9
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2670
+	# of seeds chosen for round 1: 2670
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:37:36
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 726, 1205],
+       [1007,  751],
+       [1173, 2569]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:37:39
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:37:39
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1205,  726],
+       [ 751, 1007],
+       [2569, 1173]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:37:48
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (717, 2028), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 10
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 40.0%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2982
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2982
+	# of seeds chosen for round 1: 2982
+	Num combined input seeds: 2982
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2677
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2709
+	# of seeds chosen for round 2: 2709
+	Num combined input seeds: 2709
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2661
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2692
+	# of seeds chosen for round 3: 2692
+	Num combined input seeds: 2692
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2655
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2685
+	# of seeds chosen for round 4: 2685
+	Num combined input seeds: 2685
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2653
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 5: 2683
+	Num combined input seeds: 2683
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 50%|█████     | 10/20 [13:06<05:29, 32.90s/it]Starting Iteration 10
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 1: 2683
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:38:03
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1842, 1161],
+       [1956, 1618],
+       [2881, 2994]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:38:14
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:38:14
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1161, 1842],
+       [1618, 1956],
+       [2994, 2881]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:38:27
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (717, 2028), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 10
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 40.0%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2979
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2979
+	# of seeds chosen for round 1: 2979
+	Num combined input seeds: 2979
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2670
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2704
+	# of seeds chosen for round 2: 2704
+	Num combined input seeds: 2704
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2647
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2678
+	# of seeds chosen for round 3: 2678
+	Num combined input seeds: 2678
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2641
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2671
+	# of seeds chosen for round 4: 2671
+	Num combined input seeds: 2671
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2639
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2669
+	# of seeds chosen for round 5: 2669
+	Num combined input seeds: 2669
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 55%|█████▌    | 11/20 [13:44<05:12, 34.69s/it]Starting Iteration 11
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2670
+	# of seeds chosen for round 1: 2670
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:38:42
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [ 403,  139],
+       [1771, 1054],
+       [2300, 1775]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:38:44
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:38:45
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 139,  403],
+       [1054, 1771],
+       [1775, 2300]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:38:49
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2980
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2980
+	# of seeds chosen for round 1: 2980
+	Num combined input seeds: 2980
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2676
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2712
+	# of seeds chosen for round 2: 2712
+	Num combined input seeds: 2712
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2659
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2691
+	# of seeds chosen for round 3: 2691
+	Num combined input seeds: 2691
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2656
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 4: 2688
+	Num combined input seeds: 2688
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2655
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2687
+	# of seeds chosen for round 5: 2687
+	Num combined input seeds: 2687
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 60%|██████    | 12/20 [14:07<04:08, 31.04s/it]Starting Iteration 12
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2686
+	# of seeds chosen for round 1: 2686
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:39:05
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1043,  747],
+       [1912, 2614],
+       [2001, 2683]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:39:11
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:39:12
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 747, 1043],
+       [2614, 1912],
+       [2683, 2001]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:39:15
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2982
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2982
+	# of seeds chosen for round 1: 2982
+	Num combined input seeds: 2982
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2681
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2717
+	# of seeds chosen for round 2: 2717
+	Num combined input seeds: 2717
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2656
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2689
+	# of seeds chosen for round 3: 2689
+	Num combined input seeds: 2689
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2654
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 4: 2688
+	Num combined input seeds: 2688
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2654
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2687
+	# of seeds chosen for round 5: 2687
+	Num combined input seeds: 2687
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 65%|██████▌   | 13/20 [14:33<03:27, 29.59s/it]Starting Iteration 13
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 1: 2688
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:39:31
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1977, 2648],
+       [1552, 1961],
+       [2406, 1271]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:39:40
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:39:40
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [2648, 1977],
+       [1961, 1552],
+       [1271, 2406]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:39:50
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2975
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2975
+	# of seeds chosen for round 1: 2975
+	Num combined input seeds: 2975
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2687
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2719
+	# of seeds chosen for round 2: 2719
+	Num combined input seeds: 2719
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2660
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2691
+	# of seeds chosen for round 3: 2691
+	Num combined input seeds: 2691
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2656
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 4: 2688
+	Num combined input seeds: 2688
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2654
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2686
+	# of seeds chosen for round 5: 2686
+	Num combined input seeds: 2686
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 70%|███████   | 14/20 [15:09<03:08, 31.43s/it]Starting Iteration 14
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2685
+	# of seeds chosen for round 1: 2685
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:40:06
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1597, 2889],
+       [1090,  280],
+       [1803, 2136]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:40:12
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:40:13
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [2889, 1597],
+       [ 280, 1090],
+       [2136, 1803]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:40:15
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2977
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2977
+	# of seeds chosen for round 1: 2977
+	Num combined input seeds: 2977
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2684
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2717
+	# of seeds chosen for round 2: 2717
+	Num combined input seeds: 2717
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2655
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 3: 2688
+	Num combined input seeds: 2688
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2650
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 4: 2683
+	Num combined input seeds: 2683
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2651
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 5: 2683
+	Num combined input seeds: 2683
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 75%|███████▌  | 15/20 [15:31<02:22, 28.56s/it]Starting Iteration 15
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2683
+	# of seeds chosen for round 1: 2683
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:40:28
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1690, 1749],
+       [ 264,  484],
+       [2451, 2405]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:40:39
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:40:39
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1749, 1690],
+       [ 484,  264],
+       [2405, 2451]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:40:45
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2977
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2977
+	# of seeds chosen for round 1: 2977
+	Num combined input seeds: 2977
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2683
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2711
+	# of seeds chosen for round 2: 2711
+	Num combined input seeds: 2711
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2655
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2687
+	# of seeds chosen for round 3: 2687
+	Num combined input seeds: 2687
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2646
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2678
+	# of seeds chosen for round 4: 2678
+	Num combined input seeds: 2678
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2644
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2675
+	# of seeds chosen for round 5: 2675
+	Num combined input seeds: 2675
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 80%|████████  | 16/20 [16:03<01:57, 29.50s/it]Starting Iteration 16
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2673
+	# of seeds chosen for round 1: 2673
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:00
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [  82,  123],
+       [1997, 1623],
+       [1221, 2478]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:41:07
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:08
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [ 123,   82],
+       [1623, 1997],
+       [2478, 1221]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:41:09
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2978
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2978
+	# of seeds chosen for round 1: 2978
+	Num combined input seeds: 2978
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2679
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2712
+	# of seeds chosen for round 2: 2712
+	Num combined input seeds: 2712
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2658
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2688
+	# of seeds chosen for round 3: 2688
+	Num combined input seeds: 2688
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2656
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2685
+	# of seeds chosen for round 4: 2685
+	Num combined input seeds: 2685
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2651
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2681
+	# of seeds chosen for round 5: 2681
+	Num combined input seeds: 2681
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 85%|████████▌ | 17/20 [16:27<01:23, 27.90s/it]Starting Iteration 17
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2679
+	# of seeds chosen for round 1: 2679
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:24
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [2329, 2869],
+       [2509, 2075],
+       [2750, 1959]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:41:32
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:32
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [2869, 2329],
+       [2075, 2509],
+       [1959, 2750]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:41:42
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2986
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2986
+	# of seeds chosen for round 1: 2986
+	Num combined input seeds: 2986
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2689
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2721
+	# of seeds chosen for round 2: 2721
+	Num combined input seeds: 2721
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2661
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2697
+	# of seeds chosen for round 3: 2697
+	Num combined input seeds: 2697
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2662
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2695
+	# of seeds chosen for round 4: 2695
+	Num combined input seeds: 2695
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2664
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2697
+	# of seeds chosen for round 5: 2697
+	Num combined input seeds: 2697
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 90%|█████████ | 18/20 [16:59<00:58, 29.11s/it]Starting Iteration 18
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2694
+	# of seeds chosen for round 1: 2694
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:56
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1253, 1128],
+       [   7,  148],
+       [2344, 2518]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:41:58
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:41:59
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1128, 1253],
+       [ 148,    7],
+       [2518, 2344]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:42:02
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2973
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2973
+	# of seeds chosen for round 1: 2973
+	Num combined input seeds: 2973
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 5 
+	(Precision; 3.7879%) (Recall: 3.7879%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2693
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2728
+	# of seeds chosen for round 2: 2728
+	Num combined input seeds: 2728
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2668
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2700
+	# of seeds chosen for round 3: 2700
+	Num combined input seeds: 2700
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2666
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2697
+	# of seeds chosen for round 4: 2697
+	Num combined input seeds: 2697
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2667
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2698
+	# of seeds chosen for round 5: 2698
+	Num combined input seeds: 2698
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+ 95%|█████████▌| 19/20 [17:20<00:26, 26.71s/it]Starting Iteration 19
+----------------------------------
+
+Round 1 of Iterative SoftSGM
+
+----------------------------------
+Choosing Seeds...
+	# of seeds available: 2697
+	# of seeds chosen for round 1: 2697
+Running SoftSGM Forward
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:42:17
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[2889, 1706],
+       [2483, 1832],
+       [1396, 2588],
+       ...,
+       [1349, 1695],
+       [1044, 1814],
+       [ 919,  818]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:42:27
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 3.0303%  Recall 3.0303%
+Running SoftSGM Reverse
+Running SoftSGM Topk.
+Unshuffle round start time: 12/11/24 13:42:27
+/vol/fob-vol3/nebenf20/breidina/.conda/envs/ba/lib/python3.9/site-packages/ot/bregman/_sinkhorn.py:531: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+  warnings.warn("Sinkhorn did not converge. You might want to "
+Running GOAT
+Options are: {'shuffle_input': True, 'maximize': True, 'P0': 'barycenter', 'partial_match': array([[1706, 2889],
+       [1832, 2483],
+       [2588, 1396],
+       ...,
+       [1695, 1349],
+       [1814, 1044],
+       [ 818,  919]]), 'reg': 500}
+Unshuffle round end time: 12/11/24 13:42:43
+	Length of hypotheses: 132
+	Length of test set: 132
+	Precision: 0.0%  Recall 0.0%
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 1 of Iterative Procrustes
+	Num input seeds: 2985
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2985
+	# of seeds chosen for round 1: 2985
+	Num combined input seeds: 2985
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 2 of Iterative Procrustes
+	Num input seeds: 2688
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2720
+	# of seeds chosen for round 2: 2720
+	Num combined input seeds: 2720
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 3 of Iterative Procrustes
+	Num input seeds: 2670
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2701
+	# of seeds chosen for round 3: 2701
+	Num combined input seeds: 2701
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 4 of Iterative Procrustes
+	Num input seeds: 2665
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2697
+	# of seeds chosen for round 4: 2697
+	Num combined input seeds: 2697
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+----------------------------------
+
+Round 5 of Iterative Procrustes
+	Num input seeds: 2663
+	Num gold seeds: 197
+Choosing Seeds...
+	# of seeds available: 2695
+	# of seeds chosen for round 5: 2695
+	Num combined input seeds: 2695
+
+Running Evaluation....
+
+Forward:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Reverse:
+	Length of hypotheses: 132
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+
+Intersection:
+{(685, 788), (653, 737), (2431, 1655), (2352, 1597), (988, 1481), (1291, 1139), (1116, 693), (1422, 821), (2092, 2742)}
+	Length of hypotheses: 9
+	Length of test set: 132
+	Pairs matched: 4 
+	(Precision; 44.4444%) (Recall: 3.0303%)
+100%|██████████| 20/20 [18:02<00:00, 31.24s/it]100%|██████████| 20/20 [18:02<00:00, 54.11s/it]
+Evaluating
+	Length of hypotheses: 132
+	Length of test set: 132
+	Dev Pairs matched: 4 
+	(Precision; 3.0303%) (Recall: 3.0303%)
+Done!

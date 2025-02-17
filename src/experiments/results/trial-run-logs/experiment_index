@@ -1,0 +1,21 @@
+001 - weighted embeddings - 10 iters - EP
+002 - mean embeddings - 10 iters - EP
+003 - mean embeddings - 20 iters - EP
+004 - weighted embeddings - 20 iters - EP
+005 - weighted embeddings - 20 iters - EP (fr-it)
+006 - word embeddings - 20 iters - EP (fr-it)
+007 - word embeddings - 20 iters - EP (fr-it)
+008 - weighted embeddings - 20 iters - EP (fr-it)
+009 - word embeddings - 20 iters - EP
+010 - weighted embeddings - 20 iters - EP (verification run)
+011 - word embeddings - 20 iters - EP (verification with re-trained embeddings)
+012 - word embeddings - 20 iters - EP (fr-it, verification run)
+013 - word embeddings - 20 iters - EP
+014 - word embeddings - 20 iters - EP
+015 - weighted embeddings - 20 iters - EP (greater corpus) 
+016 - weighted embeddings - 20 iters - EP (including Daily News in Eng and Swa)
+017 - weighted embeddings - 20 iters - EP (same as above, now with vocab size of 50.000)
+018 - mean embeddings - 20 iters - EP (same as above)
+019 - weighted embeddings - 20 iters - EP (fr-it with small fr corpus - 150000)
+020 - weighted embeddings - 20 iters - EP (swa-eng with 40000 corpus)
+021 - weighted embeddings - 20 iters - EP (fr-it with 40000 corpus)
