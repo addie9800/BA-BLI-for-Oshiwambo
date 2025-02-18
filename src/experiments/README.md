@@ -2,7 +2,7 @@
 
 - Install Python 3.9
 - Install the required packages with `pip install -r requirements.txt`
-- Download https://github.com/kellymarchisio/goat-for-bli and follow the setup instructions. Make sure to include this repository in your path. 
+- Download https://github.com/kellymarchisio/goat-for-bli and follow the setup instructions. Make sure to include this repository in your path. _Note: I only noticed the remark about the bug when setting up this repository for the publication. The experiments were run without applying the suggested fix. A repetition of the Oshiwambo-English and German-English Experiments yielded the same results within the tolerance of the standard deviation. This is most likely the case, since the bug fix only modifies unsorted seed inputs, and the seeds used in my implementation are sorted by default._
 - Make the following changes to the `_add_embeddings_internal` function of the `BytePairEmbeddings` class in `./flair/flair/embeddings/token.py`
   - For weighted embeddings: 
     ```python
