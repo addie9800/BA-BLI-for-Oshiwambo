@@ -48,7 +48,7 @@ def def_add_rights(file_id, email):
 # Load dictionary
 dictionary = json.load(
     open(
-        "test-dictionaries/dictionary-w-100-20000-True-small-7.8261-ranked.json",
+        "results/osh-eng-final-optimization/dictionary-w-100-20000-True-small-7.8261-ranked.json",
         "r",
         encoding="utf-8",
     )

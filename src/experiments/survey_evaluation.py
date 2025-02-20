@@ -1,8 +1,8 @@
-import json
 import random
+import json
 import re
-from collections import Counter, defaultdict
-from typing import Dict, List, Optional
+from collections import defaultdict, Counter
+from typing import Dict, Optional, List
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -26,9 +26,14 @@ credentials = service_account.Credentials.from_service_account_file(
 service = build("forms", "v1", credentials=credentials)
 
 _ids = [
-    "1jB4YFnFqZSRH8qcnhTR5CCZQS49hdJJqnkhfWqBVzjE",
-    "1RVTodXgaKK4hyAdQQS1t8eNRsfzovIUx7_wL58ZsAWs",
     "1D9Y6rpGKC_3ly9csjrBA4cADcBEmXHDXtfDLNKF93TM",
+    "1nw4f9f_Zo4TC85AORuXjD_UdYrY5fZXpwMImUWms3LM",
+    "1nnI7X-42hjRSma48R_idPmF7GqKaYYGfJvJZJ3iBg0M",
+    "1OoTZY-WYRG_3sOwqoSj4XeodC70n2DKm5R875YvqEPI",
+    "1K53PFsWs4gIOAQ_bxosQ3KvEomLBD3ytUTGDm0X-e9E",
+    "1QCdcKBLtkZnt30AZ28LEv1uoKXyRGKkosGlxiqITmJI",
+    "1RVTodXgaKK4hyAdQQS1t8eNRsfzovIUx7_wL58ZsAWs",
+    "1jB4YFnFqZSRH8qcnhTR5CCZQS49hdJJqnkhfWqBVzjE",
 ]
 
 
@@ -63,7 +68,7 @@ def get_form_questions(form_id: str) -> Optional[Dict[str, str]]:
 
 dictionary = json.load(
     open(
-        "test-dictionaries/dictionary-w-100-20000-True-small-7.8261-ranked.json",
+        "results/osh-eng-final-optimization/dictionary-w-100-20000-True-small-7.8261-ranked.json",
         "r",
         encoding="utf-8",
     )
@@ -72,13 +77,15 @@ dictionary = json.load(
 filtered_scores = list()
 discarded_scores = 0
 filtered_almost_correct_scores = list()
-discarded_almost_correct_scores = 0
+almost_correct_stats = list()
+questions = {}
+words = set()
+scores = defaultdict(list)
+almost_correct_scores = defaultdict(list)
 
 for _id in _ids:
-    scores = defaultdict(list)
-    almost_correct_scores = defaultdict(list)
     responses = get_form_responses(_id)
-    questions = get_form_questions(_id)
+    questions.update(get_form_questions(_id))
     print(len(questions.keys()))
     for response in responses:
         for question_id, answer_dict in response.get("answers", {}).items():
@@ -87,6 +94,7 @@ for _id in _ids:
                 current_word = re.search(r"'(?P<word>.+?)'", question_text).group(
                     "word"
                 )
+                words.add(current_word)
                 if question_text.endswith(":"):
                     translations = dictionary.get(current_word, [])
                     for answer in answer_dict.get("textAnswers", {}).get("answers", []):
@@ -111,31 +119,39 @@ for _id in _ids:
                                 almost_correct_scores[current_word].append(0)
                             else:
                                 raise ValueError("Unexpected answer value")
-    for word, word_scores in scores.items():
-        counter = Counter(word_scores)
-        ordered_scores = iter(counter.most_common())
-        for value, freq in ordered_scores:
-            if freq > 1 and (
-                not (next_score := next(ordered_scores, None)) or next_score[1] < freq
-            ):
-                filtered_scores.append(value)
-                if almost_correct := almost_correct_scores.get(word):
-                    if (ratio := sum(almost_correct) / len(almost_correct)) == 0.5:
-                        discarded_almost_correct_scores += 1
-                    elif ratio > 0.5 and value == 1:
-                        # The 1st translation was correct
-                        filtered_almost_correct_scores.append(1)
-                    elif ratio > 0.5 and not value == 1:
-                        # The first translation was almost correct, but originally classified as incorrect
-                        filtered_almost_correct_scores.append(2)
-                    else:
-                        # The first translations was incorrect.
-                        filtered_almost_correct_scores.append(0)
-                break
-        else:
-            if word in almost_correct_scores:
-                discarded_almost_correct_scores += 1
-            discarded_scores += 1
+for word, word_scores in scores.items():
+    counter = Counter(word_scores)
+    ordered_scores = iter(counter.most_common())
+    for value, freq in ordered_scores:
+        if freq > 1 and (
+            not (next_score := next(ordered_scores, None)) or next_score[1] < freq
+        ):
+            filtered_scores.append(value)
+            if almost_correct := almost_correct_scores.get(word):
+                if (ratio := sum(almost_correct) / len(almost_correct)) == 0.5:
+                    # No clear majority
+                    filtered_almost_correct_scores.append(5)
+                elif ratio > 0.5 and value == 1:
+                    # The 1st translation was correct
+                    filtered_almost_correct_scores.append(1)
+                elif ratio > 0.5 and not value == 1:
+                    # The first translation was almost correct, but originally classified as incorrect
+                    print(word)
+                    filtered_almost_correct_scores.append(2)
+                elif ratio < 0.5 and value == 1:
+                    # The first translation was marked correct, but not almost correct (annotation error)
+                    filtered_almost_correct_scores.append(3)
+                elif ratio < 0.5 and not value == 1:
+                    # The first translation was not correct, also not almost correct
+                    filtered_almost_correct_scores.append(4)
+                else:
+                    raise ValueError("Unexpected case")
+            break
+    else:
+        if word in almost_correct_scores:
+            filtered_almost_correct_scores.append(0)
+        discarded_scores += 1
+
 
 print(
     f"The dictionary scored {sum([1 / rank for rank in filtered_scores if rank > 0])/len(filtered_scores)} on the best translation task."
@@ -154,11 +170,11 @@ print(
 )
 counter = Counter(filtered_almost_correct_scores)
 print(
-    f"{counter[2]} translations were almost correct, {counter[1]} were entirely correct and {counter[0]} were incorrect."
+    f"{counter[2]} translations were almost correct but not correct, "
+    f"{counter[1]} were entirely correct, "
+    f"{counter[3]} marked not almost correct but correct (error), "
+    f"{counter[4]} marked incorrect and not almost correct, "
+    f"{counter[5]} unmarked due to no majority and "
+    f"{counter[0]} are unclear, due to no decision on the word."
 )
-print(
-    f"{len(filtered_almost_correct_scores)} almost correct scores were kept. {discarded_almost_correct_scores} almost correct scores were discarded."
-)
-print(
-    f"{len(set(almost_correct_scores.keys()) - set(scores.keys()))} words were not answered in the top 10 list."
-)
+print(f"{len(words - set(scores.keys()))} words were not answered in the top 10 list.")
